@@ -3,7 +3,7 @@ import "./App.css";
 import faker from "faker";
 
 import ApprovalCard from "./ApprovalCard";
-import CommentDetail from "./CommentDetail";
+import CommentDetail from "./commentDetail";
 
 
 
