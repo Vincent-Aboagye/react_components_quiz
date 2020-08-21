@@ -1,21 +1,25 @@
 import React from "react";
 
+
+
 // convert to class-based component
+
 class CommentDetail extends React.Component{
-  render(props){
+  
+  render(){
       return(
         <div className="comment">
           <a href="/" className="avatar">
-          <img alt="avatar" src={props.img} />
+          <img alt="avatar" src={this.props.img} />
           </a>
           <div className="content">
             <a href="/" className="author">
-              {props.author}
+              {this.props.author}
             </a>
             <div className="metadata">
-              <span className="date">{props.timeAgo}</span>
+              <span className="date">{this.props.timeAgo}</span>
             </div>
-            <div className="text">{props.commentText}</div>
+            <div className="text">{this.props.commentText}</div>
           </div>
         </div>
       

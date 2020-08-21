@@ -2,11 +2,13 @@ import React from "react";
 
 // Convert to class based component
 
+
 class ApprovalCard extends React.Component{
-  render(props){
+  
+  render(){
       return( 
         <div className="ui card">
-          <div className="content">{props.children}</div>
+          <div className="content">{this.props.children}</div>
           <div className="extra content">
             <div className="ui two buttons">
               <div className="ui basic green button">Approve</div>
